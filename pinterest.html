@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pinterest - India</title>
+<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+  
+    <!-- jQuery code to show the working of this method -->
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $(document).scrollTop($(document).height());
+            });
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header a.active {
+  background-color: #e60023;
+  color: #ffffff;
+  border-radius: 80px;
+}
+
+.header a.active:hover {
+  background-color: #ad081b;
+  color: #ffffff;
+  border-radius: 80px;
+  text-decoration: none;
+}
+
+.header a.active1 {
+  background-color: #ddd;
+  color: #000;
+  border-radius: 80px;
+  margin-left: 15px;
+}
+
+.header a.active1:hover {
+  background-color: #e2e2e2;
+  color: #000;
+  border-radius: 80px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+.mySlides1 {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  text-align: center;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot1 {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: none;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.gallery {
+  width: 20%;
+  border-radius: 80px;
+}
+
+.button12 {
+  position: fixed;
+  left: 50%;
+  top: 95%;
+  z-index: 999999;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <button class="button12"><svg class="gUZ erh U9O kVc" height="24" width="24" viewBox="0 0 24 24" aria-label="Arrow" role="img"><path d="M12 19.5L.66 8.29c-.88-.86-.88-2.27 0-3.14.88-.87 2.3-.87 3.18 0L12 13.21l8.16-8.06c.88-.87 2.3-.87 3.18 0 .88.87.88 2.28 0 3.14L12 19.5z"></path></svg></button>
+	<img src="images/Pinterest-Logo.png" alt="Girl in a jacket" width="130" height="40">
+  <div class="header-right">
+    <a href="#"><strong>About</strong></a>
+    <a href="#"><strong>Business</strong></a>
+    <a href="#"><strong>Press</strong></a>
+    <a class="active" href="#">Log in</a>
+    <a class="active1" href="#">Sign up</a>
+  </div>
+</div>
+
+<div style="text-align: center; font-size: 30px;">
+  <h1>Get your next</h1>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <h1 style="text-align: center; font-size: 40px; color: #c28b00;">chai time snacks idea</h1>
+</div>
+
+<div class="mySlides fade">
+  <h1 style="text-align: center; font-size: 40px; color: #0076D3;">home décor idea</h1>
+</div>
+
+<div class="mySlides fade">
+  <h1 style="text-align: center; font-size: 40px; color: #518C7B;">outfit idea</h1>
+</div>
+
+<div class="mySlides fade">
+  <h1 style="text-align: center; font-size: 40px; color: #518C7B;">DIY idea</h1>
+</div>
+<br>
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<div style="text-align:center">
+  <span class="dot1"></span> 
+  <span class="dot1"></span> 
+  <span class="dot1"></span>
+  <span class="dot1"></span> 
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides1 fade">
+  <div class="gallery1">
+    <img src="images/chat.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat1.png" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat2.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat3.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat4.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat1.png" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat2.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat3.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat4.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+  </div>
+</div>
+
+<div class="mySlides1 fade">
+<div class="gallery1">
+    <img src="images/chat.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat1.png" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat2.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat3.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat4.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat1.png" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat2.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat3.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat4.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+  </div>
+</div>
+
+<div class="mySlides1 fade">
+<div class="gallery1">
+    <img src="images/chat.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat1.png" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat2.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat3.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat4.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat1.png" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat2.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat3.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat4.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+  </div>
+</div>
+
+<div class="mySlides1 fade">
+<div class="gallery1">
+    <img src="images/chat.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat1.png" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat2.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat3.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat4.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat1.png" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat2.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat3.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+    <img src="images/chat4.jpeg" class="gallery" alt="Cinque Terre" width="100%">
+  </div>
+</div>
+<br>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+var slideIndex1 = 0;
+showSlides1();
+
+function showSlides1() {
+  var i;
+  var slides1 = document.getElementsByClassName("mySlides1");
+  var dots1 = document.getElementsByClassName("dot1");
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";  
+  }
+  slideIndex1++;
+  if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+  for (i = 0; i < dots1.length; i++) {
+    dots1[i].className = dots1[i].className.replace(" active", "");
+  }
+  slides1[slideIndex1-1].style.display = "block";  
+  dots1[slideIndex1-1].className += " active";
+  setTimeout(showSlides1, 5000); // Change image every 2 seconds
+}
+</script>
+
+
+</body>
+</html>
